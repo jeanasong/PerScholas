@@ -1,0 +1,45 @@
+.blue {
+  background-color: #0781D4;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  font: Verdana;
+  font-weight: bold;
+  text-align: center;
+  line-height: 190px; /*this line keep it content at the cneter. it needs horizantal*/
+  box-shadow: 0.175em 0.175em 0 0 grey;
+  padding: 20px;
+}
+
+.red {
+  background-color: red;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 190px; /*this line keep it content at the cneter. it needs horizantal*/
+  box-shadow: 0.175em 0.175em 0 0 grey;
+  font: Verdana;
+
+}
+#box{
+margin-left: 50px;
+margin-top: 50px;
+}
+input{
+  font: 20px Verdana;
+  margin-top: 5px;
+}
+button{
+  width: 7%;
+  height: 30px;
+  padding-top: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+
+}

@@ -1,0 +1,25 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;   /* or repeat (3, 1fr) */
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 950px;
+  width: 100%;
+ /* create grid box 3*3 divide it equally with 1flow-from */
+/* height and with is responsive and covers full page */
+}
+.gridBox {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+
+/* border- radius chages boxes to circle- 0% is box and  */
+}
+..gridBox:hover {
+  opacity: 0;
+  /* 0 opacity will make background img to disspear */
+}
+body{
+  background-image:  url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/06/cappadocia-balloon-940x588.jpg");
+  background-size: 100% 100%;
+
+/* background-size 100% 100% covers all page */
+}
